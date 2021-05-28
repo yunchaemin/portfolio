@@ -1,0 +1,105 @@
+@keyframes showtext {
+    from {
+      transform: translateY(10px);
+      opacity: 0;
+      color: aqua;
+    }
+  
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+
+
+.stagger-item {
+    animation: showtext 0.5s;
+    animation-fill-mode: both;
+}
+
+.stagger-item:nth-child(1) {
+    animation-delay: 0.07s;
+}
+
+.stagger-item:nth-child(2) {
+    animation-delay: 0.14s;
+}
+
+.stagger-item:nth-child(3) {
+    animation-delay: 0.21s;
+}
+
+.stagger-item:nth-child(4) {
+    animation-delay: 0.28s;
+}
+
+.stagger-item:nth-child(5) {
+    animation-delay: 0.35s;
+}
+
+
+/* 이슈페이지 이미지리스트 */
+
+@keyframes showitemfromright {
+    from {
+        transform: translateX(30px) scaleX(1.1);
+        opacity : 0;
+    }
+
+    to {
+        transform: translateY(0px)
+        opacity : 1;
+    }
+}
+
+.stagger-item.right {
+    animation-name : showitemfromright;
+    animation-duration : 1s;
+    animation-timing-function : cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+/* 라이크페이지 서치바 */
+
+@keyframes slidedown {
+    from {
+        transform : translateY(-60px);
+        opacity: 1;
+    }
+
+    to{
+        transform: translateY(0px)
+        opacity: 1;
+    }
+}
+
+@keyframes scaleup {
+    from {
+        transform: scale(0.5);
+        opacity:0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes showpopup {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadin {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

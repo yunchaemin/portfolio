@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 모든 파일 공유 -->
+   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+   <link rel="stylesheet" type="text/css" media="screen" href="animation.css" />
+    <title>Document</title>
+    <style>
+        body {
+            padding: 24px;
+
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 24px;
+            box-sizing: border-box;
+            background-color: #485861;
+        }
+        .text-area {
+            margin-top: 192px;
+
+      }
+      .title {
+        margin-bottom: 12px;
+      }
+
+      sup {
+        font-size: 10px;
+      }
+
+      .line {
+          width: 32px;
+          height: 1px;
+          border-bottom: 1px solid #ffe6cf;
+          margin: 32px 0;
+          opacity: 0.3;
+      }
+
+      .content {
+          font-size: 16px;
+          font-weight: normal;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="issue.html"><img src="icon/arrow-back.svg" alt="뒤로가기"></a>
+        <img src="icon/like.svg" alt="뒤로가기">
+
+    </header>
+    <div class="text-area">
+        <h1 class="title stagger-item">Issues <sup>1</sup></h1>
+        <p class="stagger-item">
+          We'll make a mobile magazine <br />
+          using html, css only.
+        </p>
+    </div>
+    <div class="line stagger-item"></div>
+    <p class="content stagger-item">
+        rkskskskjfkjsdksfdjklfjlksjsfd
+        dfjksfdjksfdjfklsjfskljsdfkjsfdksfj
+        fsdlfjsdklsfdjlkfsjksfljsfd
+        fljfsdkljsfdklsfjsfkjsdflkjsfdklfsdjlkfsdj
+        fsdlsdfjlkfsdjklfjsfdkljfsdlkjsfdlks
+        kssfdkfdjl
+    </p>
+
+    <nav class="gnb">
+        <a href="index.html" class="cover mouse-effecte">
+          <img src="icon/cover.svg" alt="커버">
+        </a>
+        <a href="issue.html" class="issue mouse-effect active">
+          <img src="icon/issue.svg" alt="이슈">
+        </a>
+        <a href="like.html" class="like mouse-effect">
+          <img src="icon/like.svg" alt="라이크">
+        </a>
+        <a href="mypage.html" class="my mouse-effect">
+          <img src="icon/more.svg" alt="더보기">
+        </a>
+      </nav>
+</body>
+</html>
