@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="animation.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="animation.css"
+    />
     <title>Document</title>
 
     <style>
@@ -15,25 +20,25 @@
         margin-top: 75px;
       }
 
-      header .thumb-wrapper{
-        position:relative;
+      header .thumb-wrapper {
+        position: relative;
         display: inline-block;
         margin-bottom: 36px;
       }
 
-      header .thumb{
+      header .thumb {
         width: 92px;
         height: 92px;
-        border-radius: 50%
+        border-radius: 50%;
         /* box-shadow: 0 6 12 rgba(0,0,0,0.1),0 12 24 rgba(0,0,0,0.24); */
       }
 
-      header .badge{
+      header .badge {
         width: 28px;
         height: 28px;
         font-size: 12px;
         position: absolute;
-        background-color: #FF5500;
+        background-color: #ff5500;
         border-radius: 50%;
         top: 0;
         right: -8px;
@@ -54,24 +59,22 @@
         padding: 8px 22px 10px 22px;
         display: inline-block;
         border-radius: 20px;
-        background-color: rgba(0,0,0,0.05);
-        border: 1px solid rgba(0,0,0,0.08);
+        background-color: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.08);
         box-sizing: border-box;
         margin-top: 18px;
       }
 
       /* 리스트 */
-      .list{
+      .list {
         margin-top: 48px;
-
       }
 
       .list .item {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid rgba(0,0,0,0.08);
-
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
       }
 
       .list .item .left {
@@ -94,14 +97,14 @@
       .list .item .right img {
         padding-right: 14px;
       }
-
- 
     </style>
   </head>
   <body>
     <header>
       <div class="thumb-wrapper stagger-item">
-        <a href="my-modal.html"><img class="thumb" src="img/user-thumb.png" alt="프로필" /></a>
+        <a href="my-modal.html"
+          ><img class="thumb" src="img/user-thumb.png" alt="프로필"
+        /></a>
         <div class="badge">7</div>
       </div>
 
@@ -113,19 +116,23 @@
         </div>
       </div>
 
-      <div class="mail mouse-effect stagger-item"><a href="mailto:hppyminseon@naver.com">hppyminseon@naver.com</a></div>
+      <div class="mail mouse-effect stagger-item">
+        <a href="mailto:hppyminseon@naver.com">hppyminseon@naver.com</a>
+      </div>
     </header>
 
     <ul class="list stagger-item">
-      <li class="item mouse-effect">
-        <div class="left">
-          <img src="icon/bookmark.svg" alt="북마크" />
-          <div class="name">Bookmark</div>
-        </div>
-        <div class="right">
-          <img src="icon/right_arrow.svg" alt="화살표" />
-        </div>
-      </li>
+      <a href="careers.html">
+        <li class="item mouse-effect">
+          <div class="left">
+            <img src="icon/bookmark.svg" alt="북마크" />
+            <div class="name">Careers</div>
+          </div>
+          <div class="right">
+            <img src="icon/right_arrow.svg" alt="화살표" />
+          </div>
+        </li>
+      </a>
 
       <li class="item mouse-effect">
         <div class="left">
@@ -160,16 +167,16 @@
 
     <nav class="gnb">
       <a href="index.html" class="cover mouse-effecte">
-        <img src="icon/cover.svg" alt="커버">
+        <img src="icon/cover.svg" alt="커버" />
       </a>
       <a href="issue.html" class="issue mouse-effect">
-        <img src="icon/issue.svg" alt="이슈">
+        <img src="icon/issue.svg" alt="이슈" />
       </a>
       <a href="like.html" class="like mouse-effect">
-        <img src="icon/like.svg" alt="라이크">
+        <img src="icon/like.svg" alt="라이크" />
       </a>
       <a href="mypage.html" class="my mouse-effect active">
-        <img src="icon/more.svg" alt="더보기">
+        <img src="icon/more.svg" alt="더보기" />
       </a>
     </nav>
   </body>

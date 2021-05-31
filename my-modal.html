@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="animation.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="animation.css"
+    />
     <title>Document</title>
 
     <style>
@@ -15,25 +20,25 @@
         margin-top: 75px;
       }
 
-      header .thumb-wrapper{
-        position:relative;
+      header .thumb-wrapper {
+        position: relative;
         display: inline-block;
         margin-bottom: 36px;
       }
 
-      header .thumb{
+      header .thumb {
         width: 92px;
         height: 92px;
-        border-radius: 50%
+        border-radius: 50%;
         /* box-shadow: 0 6 12 rgba(0,0,0,0.1),0 12 24 rgba(0,0,0,0.24); */
       }
 
-      header .badge{
+      header .badge {
         width: 28px;
         height: 28px;
         font-size: 12px;
         position: absolute;
-        background-color: #FF5500;
+        background-color: #ff5500;
         border-radius: 50%;
         top: 0;
         right: -8px;
@@ -50,24 +55,22 @@
         padding: 8px 22px 10px 22px;
         display: inline-block;
         border-radius: 20px;
-        background-color: rgba(0,0,0,0.05);
-        border: 1px solid rgba(0,0,0,0.08);
+        background-color: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.08);
         box-sizing: border-box;
         margin-top: 18px;
       }
 
       /* 리스트 */
-      .list{
+      .list {
         margin-top: 48px;
-
       }
 
       .list .item {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid rgba(0,0,0,0.08);
-
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
       }
 
       .list .item .left {
@@ -92,80 +95,75 @@
       }
 
       .modal-wrapper {
-          position: fixed;
-          top:0;
-          left: 0;
-          width:100vw;
-          height:100vh;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .modal-inner {
         width: calc(100%-48px);
         background-color: #485861;
-        border-radius: 12px;      
-        overflow: hidden;  
+        border-radius: 12px;
+        overflow: hidden;
         animation: showpopup 0.75s;
         animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
       }
 
       .modal-inner .thumb {
-          height: 234px;
-          background-color: aqua;
-          background-image: url("img/likes-3.jpg");
-          background-size: cover;
-          background-position: center;
+        height: 234px;
+        background-color: aqua;
+        background-image: url("img/likes-3.jpg");
+        background-size: cover;
+        background-position: center;
       }
 
-      .bottom-info .title{
-          font-size: 17px;
+      .bottom-info .title {
+        font-size: 17px;
       }
 
       .modal-inner .description {
-          margin-top: 4px;
-          line-height: 19px;
-          font-size: 12px;
+        margin-top: 4px;
+        line-height: 19px;
+        font-size: 12px;
       }
 
-
       .bottom-info button {
-          padding: 10px 20px;
-          font-size: 15px;
-          border: 1px solid rgba(255,230,207,0.28);
-          border-radius: 4px;
-          position: absolute;
-          right: 24px;
-          bottom: 24px;
+        padding: 10px 20px;
+        font-size: 15px;
+        border: 1px solid rgba(255, 230, 207, 0.28);
+        border-radius: 4px;
+        position: absolute;
+        right: 24px;
+        bottom: 24px;
       }
 
       .bottom-info .description {
-          line-height: 19px;
-          margin-top: 4px;
+        line-height: 19px;
+        margin-top: 4px;
       }
 
       .bottom-info {
-          height: 212px;
-          padding: 24px;
-          box-sizing: border-box;
-          position: relative;
+        height: 212px;
+        padding: 24px;
+        box-sizing: border-box;
+        position: relative;
       }
 
       .overlay {
         width: 100vw;
         height: 100vh;
         position: fixed;
-        top:0;
-        left:0;
-        background-color: rgba(0,0,0,0.7);
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
         animation: fadein 0.5s;
         animation-fill-mode: both;
       }
-
-
-
- 
     </style>
   </head>
   <body>
@@ -183,7 +181,9 @@
         </div>
       </div>
 
-      <div class="mail mouse-effect"><a href="mailto:hppyminseon@naver.com">hppyminseon@naver.com</a></div>
+      <div class="mail mouse-effect">
+        <a href="mailto:hppyminseon@naver.com">hppyminseon@naver.com</a>
+      </div>
     </header>
 
     <ul class="list">
@@ -228,37 +228,34 @@
       </li>
     </ul>
 
-
-
     <nav class="gnb">
       <a href="index.html" class="cover mouse-effecte">
-        <img src="icon/cover.svg" alt="커버">
+        <img src="icon/cover.svg" alt="커버" />
       </a>
       <a href="issue.html" class="issue mouse-effect">
-        <img src="icon/issue.svg" alt="이슈">
+        <img src="icon/issue.svg" alt="이슈" />
       </a>
       <a href="like.html" class="like mouse-effect">
-        <img src="icon/like.svg" alt="라이크">
+        <img src="icon/like.svg" alt="라이크" />
       </a>
       <a href="mypage.html" class="my mouse-effect active">
-        <img src="icon/more.svg" alt="더보기">
+        <img src="icon/more.svg" alt="더보기" />
       </a>
     </nav>
 
     <div class="overlay"></div>
     <div class="modal-wrapper">
-        <div class="modal-inner">
-            <div class="thumb"></div>
-            <div class="bottom-info">
-                <div class="title">Dear, Designers.</div>
-                <p class="description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    It has been the industry's standard.
-                </p>
-                <a href="mypage.html"><button>Close</button></a>
-            </div>                
+      <div class="modal-inner">
+        <div class="thumb"></div>
+        <div class="bottom-info">
+          <div class="title">Dear, Designers.</div>
+          <p class="description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. It has been the industry's standard.
+          </p>
+          <a href="mypage.html"><button>Close</button></a>
         </div>
+      </div>
     </div>
   </body>
 </html>
-
